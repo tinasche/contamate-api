@@ -1,0 +1,12 @@
+services:
+  db:
+    container_name: contamate_db
+    image: postgres:16
+    environment:
+      POSTGRES_DB: contamate_db
+      POSTGRES_USER: contacter
+      POSTGRES_PASSWORD: Cont!at3r
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432:5432"
