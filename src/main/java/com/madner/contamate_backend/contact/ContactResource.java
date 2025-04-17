@@ -8,7 +8,7 @@ import java.net.URI;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("contacts")
+@RequestMapping("/contacts")
 public class ContactResource {
 
     private final ContactService contactService;
