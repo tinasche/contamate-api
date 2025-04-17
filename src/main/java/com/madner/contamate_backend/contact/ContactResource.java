@@ -9,6 +9,7 @@ import java.net.URI;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/contacts")
+@CrossOrigin
 public class ContactResource {
 
     private final ContactService contactService;
